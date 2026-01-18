@@ -1,2 +1,0 @@
-:HL["/coding-club/_next/static/chunks/221ce6682042a4f8.css","style"]
-0:{"buildId":"o_9a2f2HktIV660ggpo33","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"docs","paramType":null,"paramKey":"docs","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
