@@ -1,11 +1,22 @@
 import nextra from 'nextra'
- 
-// Set up Nextra with its configuration
+
+const isProd = process.env.NODE_ENV === 'production'
+const repoName = 'coding-club'
+
+/**
+ * @type {import('next').NextConfig}
+ */
+const nextConfig = {
+  output: 'export',
+  images: {
+    unoptimized: true
+  },
+  basePath: isProd ? `/${repoName}` : '',
+  assetPrefix: isProd ? `/${repoName}/` : ''
+}
+
 const withNextra = nextra({
-  // ... Add Nextra-specific options here
+  // ...other Nextra config
 })
- 
-// Export the final Next.js config with Nextra included
-export default withNextra({
-  // ... Add regular Next.js options here
-})
+
+export default withNextra(nextConfig)

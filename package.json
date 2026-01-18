@@ -7,12 +7,15 @@
     "react-dom": "^19.2.3"
   },
   "scripts": {
-    "dev": "next",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "postbuild": "pagefind --site .next/server/app --output-path public/_pagefind"
+    "postbuild": "pagefind --site .next/server/app --output-path out/_pagefind",
+    "deploy": "npm run build && touch ./out/.nojekyll && gh-pages -d out",
+    "serve": "npx serve out"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "pagefind": "^1.4.0"
   }
 }
