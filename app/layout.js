@@ -16,7 +16,7 @@ const navbar = (
     // ... Your additional navbar options
   />
 )
-const footer = <Footer>MIT {new Date().getFullYear()} © Nextra.</Footer>
+const footer = <Footer>Unionville Alliance Church</Footer>
  
 export default async function RootLayout({ children }) {
   return (
@@ -39,7 +39,7 @@ export default async function RootLayout({ children }) {
           navbar={navbar}
           pageMap={await getPageMap()}
           docsRepositoryBase="https://kylealvares.github.io/coding-club/docs"
-          footer={footer}
+          // footer={footer}
           editLink={false}
           feedback={{ content: null }}
           // ... Your additional layout options
