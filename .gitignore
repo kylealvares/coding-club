@@ -1,0 +1,50 @@
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+
+# production
+dist/
+build/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# cache
+.cache/
+.turbo/
+.vercel/
+
+# package managers
+.pnpm-store/
+
+# testing
+coverage/
+
+# editor directories and files
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# misc
+*.tsbuildinfo
+
+# search engine
+_pagefind/
