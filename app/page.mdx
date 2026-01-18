@@ -1,5 +1,5 @@
 import { Callout, Cards, Steps } from 'nextra/components'
-import { Calendar, Clock, GraduationCap, Users, MapPin, Navigation } from 'lucide-react'
+import { Calendar, Clock, GraduationCap, Users, MapPin, Navigation, Wifi, KeyRound } from 'lucide-react'
 import { Tiles, Tile } from './components/tiles'
 
 # Welcome to Coding Club
@@ -25,6 +25,21 @@ for students in **Grades 6 - 12**, and takes place in **Room 10 at Unionville Al
 Pickup will be at the Youth Room Portable.
 
 **Optional**: Pizza dinner is available for all weeks at a cost of **$25**.
+
+### Connecting to the Network
+
+<Cards cols={2}>
+  <Cards.Card
+    icon={<Wifi className="x:h-5 x:w-5" />}
+    title="Network: UAC"
+    href="/"
+  />
+  <Cards.Card
+    icon={<KeyRound className="x:h-5 x:w-5" />}
+    title="Password: 1faith!!"
+    href="/"
+  />
+</Cards> 
 
 {/* <Cards cols={2}>
   <Cards.Card
@@ -57,6 +72,7 @@ Pickup will be at the Youth Room Portable.
     icon={<GraduationCap className="x:h-5 x:w-5" />}
     title="Week 2: Input & Conditionals"
     subtitle="Getting input from users and handling logic."
+    href="/week-2"
   />
 </Tiles>
 
