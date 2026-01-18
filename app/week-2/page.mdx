@@ -16,7 +16,7 @@ print("Hello world")  # This tells the computer to show text
 
 Variables are containers that store information like text or numbers. You can give them names and use them later.
 
-```python
+```python copy
 name = "Alice"
 age = 12
 print(f"{name} {age}")
@@ -30,7 +30,7 @@ Different kinds of information are stored differently:
 - **Numbers** = integers or decimals `5`, `3.14`  
 - **Booleans** = True/False `True`
 
-```python
+```python copy
 message = "Hi there!"
 count = 5
 is_happy = True
@@ -40,7 +40,7 @@ is_happy = True
 
 Comments are notes for humans. The computer ignores them. In Python, start a comment with `#`.
 
-```python
+```python copy
 # This is a comment
 print("Hello")  # This prints Hello
 ```
@@ -49,7 +49,7 @@ print("Hello")  # This prints Hello
 
 Functions are blocks of code you can reuse. You “call” a function whenever you want the code to run.
 
-```python
+```python copy
 def greet():
     print("Hello!")
 
@@ -60,7 +60,7 @@ greet()  # Calls the function
 
 `print()` shows information on the screen. It's how you check what your code is doing.
 
-```python
+```python copy
 print("This is output!")
 ```
 
@@ -68,7 +68,7 @@ print("This is output!")
 
 Computers can calculate using Python operators: `+`, `-`, `*`, `/`.
 
-```python
+```python copy
 print(f"{5 + 3}")  # 8
 print(f"{10 / 2}") # 5.0
 ```
@@ -77,7 +77,7 @@ print(f"{10 / 2}") # 5.0
 
 Computers follow instructions **line by line**, top to bottom. The order of your code affects the result.
 
-```python
+```python copy
 print("First line")
 print("Second line")
 ```
@@ -86,7 +86,7 @@ print("Second line")
 
 In Python, you can ask the user for information using the `input()` function. Whatever the user types is stored as **text**.
 
-```python
+```python copy
 name = input("What is your name? ")
 print(f"Hello {name}!")
 ```
@@ -96,7 +96,7 @@ print(f"Hello {name}!")
 
 Sometimes, you want the input to be a number so you can do math. Use `int()` for whole numbers or `float()` for decimals:
 
-```python
+```python copy
 age = int(input("How old are you? "))
 height = float(input("Enter your height in meters: "))
 
@@ -107,11 +107,39 @@ print(f"Your height times 2 is {height * 2}")
 - `int()` converts text to a whole number.  
 - `float()` converts text to a decimal number.  
 
+## Booleans
+
+Booleans are special values that are either **True** or **False**. They help the computer decide what to do.
+
+```python copy
+is_happy = True
+is_raining = False
+
+print(f"Am I happy? {is_happy}")
+print(f"Is it raining? {is_raining}")
+```
+
+- Booleans help the computer **decide what to do**.
+- You often get booleans from **comparisons**.
+
+## Comparison Operators
+
+Comparison operators let you **compare values**. They return a boolean (`True` or `False`).
+
+| Operator | Example  | Result | Meaning           |
+| -------- | -------- | ------ | ----------------- |
+| `==`     | `5 == 5` | True   | Equal to          |
+| `!=`     | `5 != 3` | True   | Not equal to      |
+| `>`      | `7 > 3`  | True   | Greater than      |
+| `<`      | `2 < 4`  | True   | Less than         |
+| `>=`     | `5 >= 5` | True   | Greater or equal  |
+| `<=`     | `3 <= 4` | True   | Less or equal     |
+
 ## Conditionals
 
 Conditionals let your program **make decisions** based on a value. The computer can run different code depending on conditions.
 
-```python
+```python copy
 age = int(input("How old are you? "))
 
 if age >= 13:
@@ -125,7 +153,7 @@ else:
 
 You can also check multiple conditions using `elif`:
 
-```python
+```python copy
 score = int(input("Enter your score: "))
 
 if score >= 90:
