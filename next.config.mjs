@@ -11,6 +11,7 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
+  copy: true,
   basePath: isProd ? `/${repoName}` : '',
   assetPrefix: isProd ? `/${repoName}/` : ''
 }

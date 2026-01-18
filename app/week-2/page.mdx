@@ -1,3 +1,140 @@
 # Week Two
 
-Coming Soon
+This guide introduces the very basics of coding using Python examples. It's perfect for someone just starting out!
+
+## Definitions
+
+### Instructions / Commands
+
+Code is a set of instructions for the computer to follow. Each instruction tells the computer to do **one thing** at a time.
+
+```python copy
+print("Hello world")  # This tells the computer to show text
+```
+
+### Variables
+
+Variables are containers that store information like text or numbers. You can give them names and use them later.
+
+```python
+name = "Alice"
+age = 12
+print(f"{name} {age}")
+```
+
+### Data Types
+
+Different kinds of information are stored differently:
+
+- **Strings** = text `"Hello"`  
+- **Numbers** = integers or decimals `5`, `3.14`  
+- **Booleans** = True/False `True`
+
+```python
+message = "Hi there!"
+count = 5
+is_happy = True
+```
+
+### Comments
+
+Comments are notes for humans. The computer ignores them. In Python, start a comment with `#`.
+
+```python
+# This is a comment
+print("Hello")  # This prints Hello
+```
+
+### Functions
+
+Functions are blocks of code you can reuse. You “call” a function whenever you want the code to run.
+
+```python
+def greet():
+    print("Hello!")
+
+greet()  # Calls the function
+```
+
+### Print / Output
+
+`print()` shows information on the screen. It's how you check what your code is doing.
+
+```python
+print("This is output!")
+```
+
+### Simple Math
+
+Computers can calculate using Python operators: `+`, `-`, `*`, `/`.
+
+```python
+print(f"{5 + 3}")  # 8
+print(f"{10 / 2}") # 5.0
+```
+
+### Order Matters
+
+Computers follow instructions **line by line**, top to bottom. The order of your code affects the result.
+
+```python
+print("First line")
+print("Second line")
+```
+
+## Input
+
+In Python, you can ask the user for information using the `input()` function. Whatever the user types is stored as **text**.
+
+```python
+name = input("What is your name? ")
+print(f"Hello {name}!")
+```
+
+- The message inside `input("...")` is shown to the user as a prompt.  
+- The value typed is stored in a variable for later use.
+
+Sometimes, you want the input to be a number so you can do math. Use `int()` for whole numbers or `float()` for decimals:
+
+```python
+age = int(input("How old are you? "))
+height = float(input("Enter your height in meters: "))
+
+print(f"Next year, you will be {age + 1} years old.")
+print(f"Your height times 2 is {height * 2}")
+```
+
+- `int()` converts text to a whole number.  
+- `float()` converts text to a decimal number.  
+
+## Conditionals
+
+Conditionals let your program **make decisions** based on a value. The computer can run different code depending on conditions.
+
+```python
+age = int(input("How old are you? "))
+
+if age >= 13:
+    print(f"You can join the coding club!")
+else:
+    print(f"Sorry, you must be at least 13.")
+```
+
+- `if` checks a condition. If it is **True**, the indented code runs.  
+- `else` runs when the `if` condition is **False**.  
+
+You can also check multiple conditions using `elif`:
+
+```python
+score = int(input("Enter your score: "))
+
+if score >= 90:
+    print(f"Excellent!")
+elif score >= 70:
+    print(f"Good job!")
+else:
+    print(f"Keep practicing!")
+```
+
+- Conditionals help your programs **respond differently** depending on what the user enters.  
+- **Indentation matters** in Python; it shows which code belongs to each block.
