@@ -5,7 +5,7 @@ import Link from 'next/link'
 /**
  * Single Tile (Card)
  */
-export function Tile({ icon, title, subtitle, href }) {
+export const Tile = ({ icon, title, subtitle, href }) => {
   const classes =
     'x:group x:flex x:flex-col x:justify-start x:overflow-hidden x:rounded-lg ' +
     'x:border x:border-gray-200 x:dark:border-neutral-800 ' +
@@ -63,7 +63,7 @@ export function Tile({ icon, title, subtitle, href }) {
 /**
  * Tiles container (Nextra-style Cards grid)
  */
-export function Tiles({ children, cols = 3 }) {
+export const Tiles = ({ children, cols = 3 }) => {
   return (
     <div
       className="nextra-cards x:mt-4 x:gap-4 x:grid not-prose"

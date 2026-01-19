@@ -1,6 +1,7 @@
 import { Callout, Cards, Steps } from 'nextra/components'
 import { Calendar, Clock, GraduationCap, Users, MapPin, Navigation, Wifi, KeyRound } from 'lucide-react'
 import { Tiles, Tile } from './components/tiles'
+import { ContactCards, ContactCard, RoleCard } from './components/contact-card'
 
 # Welcome to Coding Club
 
@@ -11,7 +12,7 @@ No experience needed! Learn to code, have fun, and make new friends along the wa
 This is a great chance to pick up real-world skills while having a blast and connecting with 
 other students who love to create and explore technology.
 
-![Coding Club Banner](https://registrations-production.s3.amazonaws.com/uploads/event/logo/3242741/medium_image-1761613316002.png)
+![Coding Club Banner](/assets/coding-club.jpg)
 
 ## Coding Club Information
 
@@ -26,42 +27,36 @@ Pickup will be at the Youth Room Portable.
 
 **Optional**: Pizza dinner is available for all weeks at a cost of **$25**.
 
+### Meet the Instructors
+
+All of our instructors are volunteers, passionate about sharing their knowledge and helping you succeed.
+
+<div className='x:mt-4' />
+
+<ContactCards cols={3}>
+  <RoleCard
+    name="Shirley Hui"
+    role="Instructor"
+    avatar="/assets/shirley.png"
+  />
+  <RoleCard
+    name="Kevin Leung"
+    role="Instructor"
+    avatar="/assets/kevin.png"
+  />
+  <RoleCard
+    name="Kyle Alvares"
+    role="Instructor"
+    avatar="/assets/kyle-temp.png"
+  />
+</ContactCards>
+
+
 ### Connecting to the Network
-{/* 
-<Cards cols={2}>
-  <Cards.Card
-    icon={<Wifi className="x:h-5 x:w-5" />}
-    title="Network: UAC"
-    href="/"
-  />
-  <Cards.Card
-    icon={<KeyRound className="x:h-5 x:w-5" />}
-    title="Password: 1faith!!"
-    href="/"
-  />
-</Cards>  */}
 
 ```sh filename="UAC Wifi Password" copy
 1faith!!
 ```
-
-{/* <Cards cols={2}>
-  <Cards.Card
-    icon={<Calendar className="x:h-5 x:w-5" />}
-    title="Dates: Jan 14 - Feb 18"
-    href="/week-1"
-  />
-<Cards.Card
-    icon={<Calendar className="x:h-5 x:w-5" />}
-    title="Time: 5:00PM - 6:00PM"
-    href="/week-3"
-  />
-  <Cards.Card
-    icon={<Users className="x:h-5 x:w-5" />}
-    title="Grades: 6 - 12" 
-    href="/week-2"
-  />
-</Cards> */}
 
 ### Curriculum
 
@@ -78,24 +73,6 @@ Pickup will be at the Youth Room Portable.
     subtitle="Getting input from users, Booleans, comparisons, and making decisions."
     href="/week-2"
   />
-  {/* <Tile
-    icon={<GraduationCap className="x:h-5 x:w-5" />}
-    title="Week 3: Lists & Loops"
-    subtitle="Work with collections of data and repeat actions."
-    href="/week-3"
-  />
-  <Tile
-    icon={<GraduationCap className="x:h-5 x:w-5" />}
-    title="Week 4: Functions & Modular Code"
-    subtitle="Writing reusable blocks of code and understanding parameters."
-    href="/week-4"
-  />
-  <Tile
-    icon={<GraduationCap className="x:h-5 x:w-5" />}
-    title="Week 5: Lists & Dictionaries"
-    subtitle="Organizing data with lists and key-value pairs."
-    href="/week-5"
-  /> */}
 </Tiles>
 
 
@@ -121,9 +98,6 @@ To save your projects, you'll need a **Raspberry Pi Foundation account**.
 6. Complete the remaining fields and note the **username** and **password**.  
 7. **Verify the account** using the email sent to the address provided.  
 
-For more details, visit the [UAC Home > Coding Club](https://uac.churchcenter.com/calendar/event/204535151) page.  
-Questions? Contact **Justin Hsu** at [justinh@uachome.org](mailto:justinh@uachome.org) or call [905‑477‑1554](tel:9054771554).
-
 ## Code of Conduct
 
 <Steps>
@@ -148,3 +122,18 @@ By following these guidelines, we can make Coding Club a fun, respectful, and cr
 - **Arrive** a few minutes **before 5:00 PM** so we can start on time.
 - **Review concepts from the previous week** before class to stay confident and keep up.
 - **Ask questions**, that's how we learn best!
+
+## Questions?
+
+For more details, visit the [UAC Home > Coding Club](https://uac.churchcenter.com/calendar/event/204535151) page.  
+Questions? Contact **Justin Hsu** at [justinh@uachome.org](mailto:justinh@uachome.org) or call [905‑477‑1554](tel:9054771554).
+
+<div className='x:mt-4' />
+
+<ContactCards cols={3}>
+  <RoleCard
+    name="Justin Hsu"
+    role="Organizer, Pastor of Youth & Young Adult Discipleship"
+    avatar="/assets/justin.webp"
+  />
+</ContactCards>
