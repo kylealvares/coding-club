@@ -1,55 +1,67 @@
-# dependencies
+# =========================
+# Dependencies
+# =========================
 node_modules/
 
-# next.js
+# =========================
+# Next.js
+# =========================
 .next/
 out/
 
-# production
+# =========================
+# Production builds
+# =========================
 dist/
 build/
 
-# logs
+# =========================
+# Logs
+# =========================
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# environment variables
+# =========================
+# Environment variables
+# =========================
 .env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
-# cache
+# =========================
+# Cache / tooling
+# =========================
 .cache/
 .turbo/
 .vercel/
-
-# package managers
 .pnpm-store/
 
-# testing
+# =========================
+# Testing
+# =========================
 coverage/
 
-# editor directories and files
+# =========================
+# Editors / IDEs
+# =========================
 .vscode/*
 !.vscode/settings.json
 !.vscode/extensions.json
 .idea/
 
+# =========================
 # OS files
+# =========================
 .DS_Store
 Thumbs.db
 
-# misc
+# =========================
+# Misc
+# =========================
 *.tsbuildinfo
 
-# ignore pagefind everywhere by default
-_pagefind/
-
-# allow the built pagefind inside out/
-!out/_pagefind/
-!out/_pagefind/**
-
+public/_pagefind
