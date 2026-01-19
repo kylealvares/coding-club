@@ -46,5 +46,10 @@ Thumbs.db
 # misc
 *.tsbuildinfo
 
-# search engine
+# ignore pagefind everywhere by default
 _pagefind/
+
+# allow the built pagefind inside out/
+!out/_pagefind/
+!out/_pagefind/**
+
