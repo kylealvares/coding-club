@@ -21,7 +21,7 @@ try {
   execSync("npm run postbuild", { stdio: "inherit" });
 
   // Step 5: Publish to gh-pages
-  execSync("gh-pages -d out", { stdio: "inherit" });
+  execSync("npx gh-pages -d out", { stdio: "inherit" });
 
   console.log("\n✅ Deployment complete!");
 } catch (err) {
