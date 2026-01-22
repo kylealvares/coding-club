@@ -3,12 +3,12 @@ export const GoogleSlides = ({ url }) => (
     <iframe
       src={url}
       frameBorder="0"
-      width="832"
-      height="569"
+      width="100%"
+      // height="569"
       allowFullScreen
       mozallowfullscreen="true"
       webkitallowfullscreen="true"
-      style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+      style={{ position: 'absolute', top: 0, left: 0, width: '95%', height: '100%' }}
     />
   </div>
 )

@@ -5,7 +5,7 @@ import Link from 'next/link'
 /**
  * Single Tile (Card)
  */
-export const Tile = ({ icon, title, subtitle, href }) => {
+export const Tile = ({ icon, title, subtitle, href, newWindow = false }) => {
   const classes =
     'x:group x:flex x:flex-col x:justify-start x:overflow-hidden x:rounded-lg ' +
     'x:border x:border-gray-200 x:dark:border-neutral-800 ' +
@@ -52,7 +52,7 @@ export const Tile = ({ icon, title, subtitle, href }) => {
   }
 
   return (
-    <Link href={href} className={classes}>
+    <Link href={href} className={classes} target={newWindow ? '_blank' : '_self' }>
       <span className={contentClasses} title={title}>
         {content}
       </span>
