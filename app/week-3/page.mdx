@@ -1,0 +1,190 @@
+import { Callout } from 'nextra/components'
+import { GoogleSlides } from '../components/google-slides'
+import { Tiles, Tile } from '../components/tiles'
+import { GraduationCap, Presentation } from 'lucide-react'
+
+# Week Three
+
+This week we learn how to make our programs **think and decide** using
+**booleans**, **comparisons**, and **conditionals**.
+
+By the end of this lesson, your code will be able to respond differently based on user input.
+
+## Presentation
+
+<div className='x:mt-5' />
+
+<GoogleSlides url="https://docs.google.com/presentation/d/e/2PACX-1vSp2bjR60Vl6PFP94lyu36ftv_x989-yn_owgtXkZ4kz9yeOCGZEhlbscoBeB1346n1xbwq2lRh7ew_/pubembed?start=false&loop=false&delayms=0" />
+
+## Review: Input & Conversion
+
+### Input
+
+You can use `input()` to ask the user for information.
+Whatever the user types is stored as **text**.
+
+```python copy
+name = input("What is your name? ")
+print(f"Hello {name}!")
+```
+
+### Converting Input
+
+If you want to work with numbers, you must convert the input first.
+
+```python copy
+age = int(input("Age: "))
+print(f"Next year you will be {age + 1}")
+```
+
+- `int()` converts text to a whole number
+- Without conversion, math will not work correctly
+
+<Callout type="warning">
+If the user types something that isn't a number, Python will show an error.
+</Callout>
+
+## Booleans
+
+A **boolean** is a value that can be only:
+
+- `True`
+- `False`
+
+Booleans are used to check conditions and make decisions.
+
+```python copy
+print(5 > 4) # True
+print(3 > 10)# False
+```
+
+## Comparison Operators
+
+Comparison operators compare two values and return a boolean.
+
+| Operator | Meaning| Example| Result |
+|---------|------------------|----------|--------|
+| `==`| Equal to | `5 == 5` | True |
+| `!=`| Not equal| `5 != 3` | True |
+| `>` | Greater than | `5 > 3`| True |
+| `<` | Less than| `3 < 5`| True |
+| `>=`| Greater or equal | `5 >= 5` | True |
+| `<=`| Less or equal| `3 <= 5` | True |
+
+Example in code:
+
+```python copy
+print(10 > 7)
+print(4 == 9)
+print(3 <= 3)
+```
+
+## Decisions in Real Life
+
+Programs make decisions the same way humans do.
+
+**Question:**
+What should we wear based on the weather?
+
+- If it's hot → t-shirt
+- Else if it's cool → light jacket
+- Else → heavy coat
+
+Conditionals turn these ideas into code.
+
+## Conditionals
+
+**Conditionals** let your program make decisions.
+
+Python uses:
+- `if`
+- `elif`
+- `else`
+
+### Basic If Statement
+
+```python copy
+age = int(input("How old are you? "))
+
+if age >= 13:
+print("You can join the coding club!")
+```
+
+- The code inside `if` runs **only if** the condition is `True`
+
+### If / Else
+
+```python copy
+age = int(input("How old are you? "))
+
+if age >= 13:
+print("Welcome!")
+else:
+print("Sorry, you are too young.")
+```
+
+- `else` runs when the condition is `False`
+
+### If / Elif / Else
+
+Use `elif` to check **multiple conditions**.
+
+```python copy
+temp = int(input("What's the temperature (°C)? "))
+
+if temp >= 25:
+print("Hot! Wear shorts and sunscreen.")
+elif temp >= 10:
+print("Cool. Grab a light jacket.")
+else:
+print("Cold! Bundle up with a heavy coat.")
+```
+
+Python checks conditions **from top to bottom** and stops when it finds a match.
+
+## Why Conditionals Matter
+
+Conditionals allow your programs to:
+
+- React to user input
+- Make choices
+- Behave differently in different situations
+- Feel more interactive and intelligent
+
+Almost every real program uses conditionals.
+
+<Callout type="info">
+If something unexpected happens, check your condition logic and indentation first.
+</Callout>
+
+## Lesson Module
+
+<Tiles cols={1}>
+  <Tile
+    icon={<Presentation className="x:h-5 x:w-5" />}
+    title="Rock, Paper, Scissors"
+    subtitle="In this project you will make a Rock, Paper, Scissors game and play against the computer."
+    href="https://projects.raspberrypi.org/en/projects/rock-paper-scissors/0"
+  />
+</Tiles>
+
+## Activity: Choose Your Own Adventure
+
+Your goal is to build a **text-based choose your own adventure game**.
+
+You must:
+- Ask the user for input
+- Convert **string input into an integer**
+- Make **at least three decisions**
+- Use `if`, `elif`, and `else`
+
+**Bonus:**
+- Use `randint()` to add randomness
+- Use `datetime` to change the story based on time
+
+
+### Example
+
+<div className='x:mt-5' />
+
+<iframe src="https://trinket.io/embed/python3/678030d26474" width="100%" height="356" allowFullScreen></iframe>
