@@ -1,7 +1,8 @@
-import { Callout } from 'nextra/components'
+import { Callout, Steps } from 'nextra/components'
+import { CodeRunner } from '../components/code-runner'
 import { GoogleSlides } from '../components/google-slides'
 import { Tiles, Tile } from '../components/tiles'
-import { Code, Presentation } from 'lucide-react'
+import { Code, Form, Presentation } from 'lucide-react'
 
 # Week Three
 
@@ -142,20 +143,65 @@ print("Cold! Bundle up with a heavy coat.")
 
 Python checks conditions **from top to bottom** and stops when it finds a match.
 
-## Why Conditionals Matter
+### Why Conditionals Matter
 
 Conditionals allow your programs to:
 
 - React to user input
 - Make choices
 - Behave differently in different situations
-- Feel more interactive and intelligent
-
-Almost every real program uses conditionals.
 
 <Callout type="info">
 If something unexpected happens, check your condition logic and indentation first.
 </Callout>
+
+## The `AND` Operator
+
+Sometimes one condition is **not enough**.  
+The **`and` operator** lets you check **multiple conditions at the same time**.
+
+For an `and` condition to be `True`:
+
+**ALL conditions must be true**
+
+If **any one** condition is false, the whole statement is false.
+
+### Real-Life Example
+
+You can go outside **if**: it is sunny **AND** you finish your homework **Both must be true**.
+
+### `AND` in Python
+
+```python copy
+print(5 > 3 and 10 > 7)   # True
+print(5 > 3 and 10 < 7)   # False
+```
+
+### Using `AND` in Conditionals
+
+```python copy
+grade = int(input("What grade are you in? "))
+
+if grade >= 6 and grade <= 12:
+    print("You can join the coding club!")
+else:
+    print("Sorry, you cannot join.")
+```
+
+In this example:
+- `grade >= 6` must be true  
+- `grade <= 12` must also be true  
+
+Only then does the program allow the student to join.
+
+### Why `AND` is Important
+
+The `and` operator lets your programs:
+
+- Make **more specific decisions**
+- Combine multiple rules
+- Prevent incorrect choices
+
 
 ## Lesson Module
 
@@ -168,9 +214,35 @@ If something unexpected happens, check your condition logic and indentation firs
   />
 </Tiles>
 
-## Activity: Choose Your Own Adventure
+## Activity: Choose Your Own Adventure (CYOA)
 
-Your goal is to build a **text-based choose your own adventure game**.
+Your goal is to build an **interactive, text-based choose your own adventure game**.
+
+<Steps>
+
+### Brainstorm
+
+Think about the story you want to write and fill out the handout.
+
+**Story Requirements**
+- Describe an opening scene
+- Ask the user for **Choice 1** (A or B)
+- Change the story based on Choice 1
+- Ask the user for **Choice 2** (A or B)
+- Show a final outcome based on **Choice 1 + Choice 2**
+
+**Code Requirements**
+- Use `input(...)` to get user choices
+- Use `if` / `elif`
+- Use `==` and `and` operators
+
+**Optional (Bonus)**
+- Use `else`
+- Use other comparators (`!=`, `<`, `>`)
+- Use additional concepts (e.g. `randint`, `datetime`, `int(...)`, math operators)
+- Add more choices (be careful — complexity grows quickly!)
+
+### Write the Code 
 
 <Tiles cols={1}>
   <Tile
@@ -182,18 +254,62 @@ Your goal is to build a **text-based choose your own adventure game**.
   />
 </Tiles>
 
-You must:
-- Ask the user for input
-- Convert **string input into an integer**
-- Make **at least three decisions**
-- Use `if`, `elif`, and `else`
+### Submit Your Work
 
-**Bonus:**
-- Use `randint()` to add randomness
-- Use `datetime` to change the story based on time
+<Tiles cols={1}>
+  <Tile
+    icon={<Form className="x:h-5 x:w-5" />}
+    title="Google Forms"
+    subtitle="Fill in your name and paste your code."
+    href="https://forms.gle/XJKs8VBed6DhMqmWA"
+    newWindow
+  />
+</Tiles>
 
+</Steps>
+
+### Template
+
+```python copy filename="cyoa_template.py"
+# Choose your Own Adventure Program
+# Author: PUT YOUR NAME(S) HERE
+# Date: PUT THE DATE HERE
+
+# Opening scene
+print()
+print('<DESCRIBE THE OPENING SCENE>')
+print('What do you do?')
+choice1 = input('A: <CHOICE A>, B: <CHOICE B>')
+
+# Choice1 = A
+if (choice1 == 'A'):
+    print('<DESCRIBE WHAT HAPPENS NEXT>.')
+    print('What do you do?')
+    choice2 = input('A: <CHOICE A>, B: <CHOICE B>')
+# Choice2 = B
+elif (choice1 == 'B'):
+    print('<DESCRIBE WHAT HAPPENS NEXT>.')
+    print('What do you do?')
+    choice2 = input('A: <CHOICE A>, B: <CHOICE B>')
+
+# Choice1 = A, Choice2 = A
+if (choice1 == 'A' and choice2 == 'A'):
+    print('<DESCRIBE WHAT HAPPENS!')
+# Choice1 = A, Choice2 = B
+elif (choice1 == 'A' and choice2 == 'B'):
+    print('<DESCRIBE WHAT HAPPENS!')
+# Choice1 = B, Choice2 = A
+elif (choice1 == 'B' and choice2 == 'A'):
+    print('<DESCRIBE WHAT HAPPENS!')
+# Choice1 = B, Choice2 = A
+elif (choice1 == 'B' and choice2 == 'B'):
+    print('<DESCRIBE WHAT HAPPENS!')
+
+print()
+print('THE END')
+```
 
 ### Example
 
 <div className='x:mt-5' />
-<iframe src="https://trinket.io/embed/python3/01516a67aec9" width="100%" height="356"/>
+<CodeRunner url="https://trinket.io/embed/python3/c69db5f05999" />
