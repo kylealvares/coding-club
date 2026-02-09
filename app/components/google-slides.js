@@ -5,6 +5,7 @@ export const GoogleSlides = ({ url }) => (
       frameBorder="0"
       width="100%"
       // height="569"
+      className='x:mt-5'
       allowFullScreen
       mozallowfullscreen="true"
       webkitallowfullscreen="true"
