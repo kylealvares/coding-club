@@ -2,9 +2,92 @@
 2:I[55169,["/coding-club/_next/static/chunks/ff1a16fafef87110.js","/coding-club/_next/static/chunks/133a980807f66185.js","/coding-club/_next/static/chunks/a0526a7d7cf62de7.js","/coding-club/_next/static/chunks/de3addb05091b513.js"],"TOCProvider"]
 3:I[769,["/coding-club/_next/static/chunks/ff1a16fafef87110.js","/coding-club/_next/static/chunks/133a980807f66185.js","/coding-club/_next/static/chunks/a0526a7d7cf62de7.js","/coding-club/_next/static/chunks/de3addb05091b513.js"],"Sidebar"]
 4:I[47486,["/coding-club/_next/static/chunks/ff1a16fafef87110.js","/coding-club/_next/static/chunks/133a980807f66185.js","/coding-club/_next/static/chunks/a0526a7d7cf62de7.js","/coding-club/_next/static/chunks/de3addb05091b513.js"],"ClientWrapper"]
-5:I[63894,["/coding-club/_next/static/chunks/ff1a16fafef87110.js","/coding-club/_next/static/chunks/133a980807f66185.js","/coding-club/_next/static/chunks/a0526a7d7cf62de7.js","/coding-club/_next/static/chunks/de3addb05091b513.js"],"HeadingAnchor"]
-6:I[17062,["/coding-club/_next/static/chunks/ff1a16fafef87110.js","/coding-club/_next/static/chunks/133a980807f66185.js","/coding-club/_next/static/chunks/a0526a7d7cf62de7.js","/coding-club/_next/static/chunks/de3addb05091b513.js"],"CodeRunner"]
-7:I[97367,["/coding-club/_next/static/chunks/ff1a16fafef87110.js","/coding-club/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
-8:"$Sreact.suspense"
-0:{"buildId":"6QlYhcL8u7w2NMrlfE0bS","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"x:mx-auto x:flex x:max-w-(--nextra-content-width)","children":["$","$L2",null,{"value":[{"value":"Isaiah 53 Challenge","id":"isaiah-53-challenge","depth":2},{"value":"Owen","id":"owen","depth":3},{"value":"The Hidden Lab","id":"the-hidden-lab","depth":2},{"value":"Shirley","id":"shirley","depth":3}],"children":[["$","$L3",null,{}],["$","$L4",null,{"metadata":{"title":"Showcase","filePath":"app/showcase/page.mdx","timestamp":1770605994000},"sourceCode":"# Showcase\n\n## Isaiah 53 Challenge\n\n### Owen\n\n<CodeRunner url=\"https://trinket.io/embed/python3/f8d92890e197\" />\n\n## The Hidden Lab\n\n### Shirley\n\n<CodeRunner url=\"https://trinket.io/embed/python3/c69db5f05999\" />","children":[["$","div",null,{"id":"nextra-skip-nav"}],["$","main",null,{"data-pagefind-body":true,"children":[["$","h1",null,{"className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-bold x:mt-2 x:text-4xl","children":["Showcase","$undefined"]}],"\n",["$","h2",null,{"id":"isaiah-53-challenge","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-10 x:border-b x:pb-1 x:text-3xl nextra-border","children":["Isaiah 53 Challenge",["$","$L5",null,{"id":"isaiah-53-challenge"}]]}],"\n",["$","h3",null,{"id":"owen","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-8 x:text-2xl","children":["Owen",["$","$L5",null,{"id":"owen"}]]}],"\n",["$","$L6",null,{"url":"https://trinket.io/embed/python3/f8d92890e197"}],"\n",["$","h2",null,{"id":"the-hidden-lab","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-10 x:border-b x:pb-1 x:text-3xl nextra-border","children":["The Hidden Lab",["$","$L5",null,{"id":"the-hidden-lab"}]]}],"\n",["$","h3",null,{"id":"shirley","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-8 x:text-2xl","children":["Shirley",["$","$L5",null,{"id":"shirley"}]]}],"\n",["$","$L6",null,{"url":"https://trinket.io/embed/python3/c69db5f05999"}]]}]]}]]}]}],null,["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]]}],"loading":null,"isPartial":false}
-9:null
+6:I[63894,["/coding-club/_next/static/chunks/ff1a16fafef87110.js","/coding-club/_next/static/chunks/133a980807f66185.js","/coding-club/_next/static/chunks/a0526a7d7cf62de7.js","/coding-club/_next/static/chunks/de3addb05091b513.js"],"HeadingAnchor"]
+2a:I[17062,["/coding-club/_next/static/chunks/ff1a16fafef87110.js","/coding-club/_next/static/chunks/133a980807f66185.js","/coding-club/_next/static/chunks/a0526a7d7cf62de7.js","/coding-club/_next/static/chunks/de3addb05091b513.js"],"CodeRunner"]
+2b:I[97367,["/coding-club/_next/static/chunks/ff1a16fafef87110.js","/coding-club/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+2c:"$Sreact.suspense"
+5:T4fc,# Showcase
+
+## Mushy Goes to the No Rules Aquarium
+### Aaliyah, Emma L, and Emma M
+<CodeRunner url="https://trinket.io/embed/python3/2e36b539b830" />
+
+## Thy Gummy Bear
+### Abbie and Mei Zhi 
+<CodeRunner url="https://trinket.io/embed/python3/e98453beecf3" />
+
+## Lights Out
+### Caleb, Chloe, and Lawerence
+<CodeRunner url="https://trinket.io/embed/python3/f24f07038955" />
+
+## A Weird Encounter
+### Eugene and Jason 
+<CodeRunner url="https://trinket.io/embed/python3/166bd6ba38a4" />
+
+## Church Adventure
+### Jethro
+<CodeRunner url="https://trinket.io/embed/python3/f7fdc6ef9f69" />
+
+## Corn Maze
+### Leo 
+<CodeRunner url="https://trinket.io/embed/python3/b6586e8647fe" />
+
+## Random Discovery
+### Matthew
+<CodeRunner url="https://trinket.io/embed/python3/a09b58a0db59" />
+
+## Cave Adventure
+### Micah 
+<CodeRunner url="https://trinket.io/embed/python3/1f280c5ab30c" />
+
+## Isaiah 53 Challenge
+### Owen
+<CodeRunner url="https://trinket.io/embed/python3/f8d92890e197" />
+
+## THE ADVENTURE.
+### Owen
+<CodeRunner url="https://trinket.io/embed/python3/9bac66bfc933" />
+
+## Haunted House 
+### Steven, Hannah and Mia 
+<CodeRunner url="https://trinket.io/embed/python3/047bffc2a213" />
+
+## The Hidden Lab
+### Shirley
+<CodeRunner url="https://trinket.io/embed/python3/c69db5f05999" />0:{"buildId":"hv9Dda5jv2b7T7iaXt79e","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"x:mx-auto x:flex x:max-w-(--nextra-content-width)","children":["$","$L2",null,{"value":[{"value":"Mushy Goes to the No Rules Aquarium","id":"mushy-goes-to-the-no-rules-aquarium","depth":2},{"value":"Aaliyah, Emma L, and Emma M","id":"aaliyah-emma-l-and-emma-m","depth":3},{"value":"Thy Gummy Bear","id":"thy-gummy-bear","depth":2},{"value":"Abbie and Mei Zhi","id":"abbie-and-mei-zhi","depth":3},{"value":"Lights Out","id":"lights-out","depth":2},{"value":"Caleb, Chloe, and Lawerence","id":"caleb-chloe-and-lawerence","depth":3},{"value":"A Weird Encounter","id":"a-weird-encounter","depth":2},{"value":"Eugene and Jason","id":"eugene-and-jason","depth":3},{"value":"Church Adventure","id":"church-adventure","depth":2},{"value":"Jethro","id":"jethro","depth":3},{"value":"Corn Maze","id":"corn-maze","depth":2},{"value":"Leo","id":"leo","depth":3},{"value":"Random Discovery","id":"random-discovery","depth":2},{"value":"Matthew","id":"matthew","depth":3},{"value":"Cave Adventure","id":"cave-adventure","depth":2},{"value":"Micah","id":"micah","depth":3},{"value":"Isaiah 53 Challenge","id":"isaiah-53-challenge","depth":2},{"value":"Owen","id":"owen","depth":3},{"value":"THE ADVENTURE.","id":"the-adventure","depth":2},{"value":"Owen","id":"owen-1","depth":3},{"value":"Haunted House","id":"haunted-house","depth":2},{"value":"Steven, Hannah and Mia","id":"steven-hannah-and-mia","depth":3},{"value":"The Hidden Lab","id":"the-hidden-lab","depth":2},{"value":"Shirley","id":"shirley","depth":3}],"children":[["$","$L3",null,{}],["$","$L4",null,{"metadata":{"title":"Showcase","filePath":"app/showcase/page.mdx","timestamp":1770852102000},"sourceCode":"$5","children":[["$","div",null,{"id":"nextra-skip-nav"}],["$","main",null,{"data-pagefind-body":true,"children":[["$","h1",null,{"className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-bold x:mt-2 x:text-4xl","children":["Showcase","$undefined"]}],"\n",["$","h2",null,{"id":"mushy-goes-to-the-no-rules-aquarium","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-10 x:border-b x:pb-1 x:text-3xl nextra-border","children":["Mushy Goes to the No Rules Aquarium",["$","$L6",null,{"id":"mushy-goes-to-the-no-rules-aquarium"}]]}],"\n",["$","h3",null,{"id":"aaliyah-emma-l-and-emma-m","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-8 x:text-2xl","children":["Aaliyah, Emma L, and Emma M",["$","$L6",null,{"id":"aaliyah-emma-l-and-emma-m"}]]}],"\n","$L7","\n","$L8","\n","$L9","\n","$La","\n","$Lb","\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28"]}]]}]]}]}],null,"$L29"]}],"loading":null,"isPartial":false}
+7:["$","$L2a",null,{"url":"https://trinket.io/embed/python3/2e36b539b830"}]
+8:["$","h2",null,{"id":"thy-gummy-bear","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-10 x:border-b x:pb-1 x:text-3xl nextra-border","children":["Thy Gummy Bear",["$","$L6",null,{"id":"thy-gummy-bear"}]]}]
+9:["$","h3",null,{"id":"abbie-and-mei-zhi","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-8 x:text-2xl","children":["Abbie and Mei Zhi",["$","$L6",null,{"id":"abbie-and-mei-zhi"}]]}]
+a:["$","$L2a",null,{"url":"https://trinket.io/embed/python3/e98453beecf3"}]
+b:["$","h2",null,{"id":"lights-out","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-10 x:border-b x:pb-1 x:text-3xl nextra-border","children":["Lights Out",["$","$L6",null,{"id":"lights-out"}]]}]
+c:["$","h3",null,{"id":"caleb-chloe-and-lawerence","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-8 x:text-2xl","children":["Caleb, Chloe, and Lawerence",["$","$L6",null,{"id":"caleb-chloe-and-lawerence"}]]}]
+d:["$","$L2a",null,{"url":"https://trinket.io/embed/python3/f24f07038955"}]
+e:["$","h2",null,{"id":"a-weird-encounter","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-10 x:border-b x:pb-1 x:text-3xl nextra-border","children":["A Weird Encounter",["$","$L6",null,{"id":"a-weird-encounter"}]]}]
+f:["$","h3",null,{"id":"eugene-and-jason","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-8 x:text-2xl","children":["Eugene and Jason",["$","$L6",null,{"id":"eugene-and-jason"}]]}]
+10:["$","$L2a",null,{"url":"https://trinket.io/embed/python3/166bd6ba38a4"}]
+11:["$","h2",null,{"id":"church-adventure","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-10 x:border-b x:pb-1 x:text-3xl nextra-border","children":["Church Adventure",["$","$L6",null,{"id":"church-adventure"}]]}]
+12:["$","h3",null,{"id":"jethro","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-8 x:text-2xl","children":["Jethro",["$","$L6",null,{"id":"jethro"}]]}]
+13:["$","$L2a",null,{"url":"https://trinket.io/embed/python3/f7fdc6ef9f69"}]
+14:["$","h2",null,{"id":"corn-maze","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-10 x:border-b x:pb-1 x:text-3xl nextra-border","children":["Corn Maze",["$","$L6",null,{"id":"corn-maze"}]]}]
+15:["$","h3",null,{"id":"leo","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-8 x:text-2xl","children":["Leo",["$","$L6",null,{"id":"leo"}]]}]
+16:["$","$L2a",null,{"url":"https://trinket.io/embed/python3/b6586e8647fe"}]
+17:["$","h2",null,{"id":"random-discovery","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-10 x:border-b x:pb-1 x:text-3xl nextra-border","children":["Random Discovery",["$","$L6",null,{"id":"random-discovery"}]]}]
+18:["$","h3",null,{"id":"matthew","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-8 x:text-2xl","children":["Matthew",["$","$L6",null,{"id":"matthew"}]]}]
+19:["$","$L2a",null,{"url":"https://trinket.io/embed/python3/a09b58a0db59"}]
+1a:["$","h2",null,{"id":"cave-adventure","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-10 x:border-b x:pb-1 x:text-3xl nextra-border","children":["Cave Adventure",["$","$L6",null,{"id":"cave-adventure"}]]}]
+1b:["$","h3",null,{"id":"micah","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-8 x:text-2xl","children":["Micah",["$","$L6",null,{"id":"micah"}]]}]
+1c:["$","$L2a",null,{"url":"https://trinket.io/embed/python3/1f280c5ab30c"}]
+1d:["$","h2",null,{"id":"isaiah-53-challenge","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-10 x:border-b x:pb-1 x:text-3xl nextra-border","children":["Isaiah 53 Challenge",["$","$L6",null,{"id":"isaiah-53-challenge"}]]}]
+1e:["$","h3",null,{"id":"owen","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-8 x:text-2xl","children":["Owen",["$","$L6",null,{"id":"owen"}]]}]
+1f:["$","$L2a",null,{"url":"https://trinket.io/embed/python3/f8d92890e197"}]
+20:["$","h2",null,{"id":"the-adventure","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-10 x:border-b x:pb-1 x:text-3xl nextra-border","children":["THE ADVENTURE.",["$","$L6",null,{"id":"the-adventure"}]]}]
+21:["$","h3",null,{"id":"owen-1","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-8 x:text-2xl","children":["Owen",["$","$L6",null,{"id":"owen-1"}]]}]
+22:["$","$L2a",null,{"url":"https://trinket.io/embed/python3/9bac66bfc933"}]
+23:["$","h2",null,{"id":"haunted-house","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-10 x:border-b x:pb-1 x:text-3xl nextra-border","children":["Haunted House",["$","$L6",null,{"id":"haunted-house"}]]}]
+24:["$","h3",null,{"id":"steven-hannah-and-mia","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-8 x:text-2xl","children":["Steven, Hannah and Mia",["$","$L6",null,{"id":"steven-hannah-and-mia"}]]}]
+25:["$","$L2a",null,{"url":"https://trinket.io/embed/python3/047bffc2a213"}]
+26:["$","h2",null,{"id":"the-hidden-lab","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-10 x:border-b x:pb-1 x:text-3xl nextra-border","children":["The Hidden Lab",["$","$L6",null,{"id":"the-hidden-lab"}]]}]
+27:["$","h3",null,{"id":"shirley","className":"x:tracking-tight x:text-slate-900 x:dark:text-slate-100 x:font-semibold x:target:animate-[fade-in_1.5s] x:mt-8 x:text-2xl","children":["Shirley",["$","$L6",null,{"id":"shirley"}]]}]
+28:["$","$L2a",null,{"url":"https://trinket.io/embed/python3/c69db5f05999"}]
+29:["$","$L2b",null,{"children":["$","$2c",null,{"name":"Next.MetadataOutlet","children":"$@2d"}]}]
+2d:null
