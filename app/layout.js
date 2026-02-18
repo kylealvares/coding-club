@@ -35,7 +35,7 @@ export default async function RootLayout({ children }) {
       </Head>
       <body>
         <Layout
-          banner={banner}
+          // banner={banner}
           navbar={navbar}
           pageMap={await getPageMap()}
           docsRepositoryBase="https://kylealvares.github.io/coding-club/docs"
